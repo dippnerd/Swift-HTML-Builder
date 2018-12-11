@@ -40,7 +40,7 @@ If you want a full HTML doc but don't feel like building all of the nodes yourse
 ```
 let stylesheet = """
 .red {
-color:red;
+  color:red;
 }
 """
 let html = HTML.doc(using: [table], style: stylesheet)
